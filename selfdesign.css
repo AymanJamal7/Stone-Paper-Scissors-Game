@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    justify-content: center;
+}
+#changer{
+    margin-top: 100px;
+    background-color: black;
+    color: wheat;
+    border: none;
+    width: 18%;
+    height: 27px;
+    font-size: 20px;
+}
+h1{
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+
+}
+#rockpic{
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 60px;
+}
+.icon{
+    height: 120px;
+    width: 120px;
+    border: solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.icon:active{
+    border: solid;
+    border-width: 5px;
+    height: 105px;
+    width:105px;
+    border-color: black;
+}
+
+#paperpic{
+    height: 80px;
+    width: auto;
+    border-radius: 30%;
+}
+
+#scissorpic{
+    height: 80px;
+    width: 60px;;
+}
+
+.score{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+#msgBar{
+    font-size: 35px;
+    margin-top: 50px;
+    color: #000054;
+}
